@@ -9,7 +9,7 @@ class Test_Botelegram(unittest.TestCase):
 	def test_assertTrue(self):
 		bot = botelegram.TBot()
 		bot.set_token("api_token")
-		ret = bot.sendVideo(114093395,'/home/ray/Desktop/1.mp4')
+		ret = bot.sendVideo(114093395,'/home/ray/Desktop/video.mp4')
 		self.assertTrue(ret.ok)
 
 if __name__ == '__main__':
